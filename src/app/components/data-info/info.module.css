@@ -1,0 +1,109 @@
+
+
+
+ .layout {
+  flex: 3;
+  background-color: rgb(238, 226, 226);
+  height: 90vh;
+}
+
+
+.row{
+  height: 40px;
+  background-color: rgb(240, 236, 236);
+
+}
+
+
+.container{
+  display: flex;
+
+
+}
+
+.column{
+  flex: 1;
+  height: 100vh;
+  background-color: white;
+}
+
+
+.containerData{
+  flex: 5;
+}
+
+
+
+.cardsParent{
+
+  position: relative;
+  width: 90%;
+  height: 100%;
+  border: 1px solid black;
+  /* margin-top: 50px; */
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+
+.header{
+  position: absolute;
+  background-color: white;
+  height: 40px ;
+  width: 100%;
+  border-radius: 2px;
+
+  top:20px;
+  display: flex;
+  justify-content: start;  
+  align-items: center;
+}
+
+
+/******cupon*********/
+.cupon{
+  position: absolute;
+  background-color: white;
+  height: 110px ;
+  width: 280px;
+  border-radius: 2px;
+  top:80px;
+  display: flex;
+  justify-content: center;  
+  align-items: center;
+  
+
+}
+
+
+.cupon div{
+  display: flex;
+  gap: 10px;
+}
+.textCupon{
+  display: flex;
+  flex-direction: column;
+}
+.textCupon .name{
+  font-weight: bold;
+  font-size: 25px;
+}
+.textCupon .desc{
+  color:gray
+}
+
+/************influencers card**********/
+
+.influencersCard{
+  position: absolute;
+  background-color: white;
+  height: 300px ;
+  width: 280px;
+  border-radius: 2px;
+  top:200px;
+  padding: 10px;
+
+
+}
+

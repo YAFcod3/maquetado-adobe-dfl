@@ -1,10 +1,20 @@
-import Image from "next/image";
-// import styles from "./page.module.css";
+// import Image from "next/image";
+import DataInfo from "./components/data-info/DataInfo";
+import Sidebar from "./components/sidebar/Sidebar";
+import style from "./page.module.css";
 
 export default function Home() {
   return (
-   
+    <section className={style.container}>
 
-    <> home Page</>
+
+
+      {/* left content */}
+     <DataInfo/>
+
+      {/* aside content */}
+      <Sidebar/>
+
+    </section>
   );
 }
