@@ -2,19 +2,20 @@
 import DataInfo from "./components/data-info/DataInfo";
 import Sidebar from "./components/sidebar/Sidebar";
 import style from "./page.module.css";
+import Navbar from "./ui/navbar/Navbar";
 
 export default function Home() {
   return (
-    <section className={style.container}>
+    <>
+      <Navbar />
 
+      <section className={style.container}>
+        {/* left content */}
+        <DataInfo />
 
-
-      {/* left content */}
-     <DataInfo/>
-
-      {/* aside content */}
-      <Sidebar/>
-
-    </section>
+        {/* aside content */}
+        <Sidebar />
+      </section>
+    </>
   );
 }
