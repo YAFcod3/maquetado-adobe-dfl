@@ -1,0 +1,57 @@
+.navbar {
+  height: 50px;
+  background-color: white;
+  border-bottom: thin solid #d3cdcd;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+.container {
+
+  height: 100%;
+  margin: 0px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #6E6E6E;
+  font-size: 14px;
+
+}
+
+
+.itemsLeft {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  gap: 4px;
+  font-weight: thin;
+}
+
+
+
+.itemsLeft span:nth-child(4) {
+  font-weight: bold;
+}
+
+
+.itemsRigth {
+  height: 100%;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+
+}
+
+.itemsRigth span:nth-child(4){
+  font-weight: bold;
+}
+
+.percent{
+  display: flex;
+  gap: 28px;
+  align-items: center;
+  margin-bottom: 2px;
+  border-bottom: thin solid #d3cdcd;
+  font-size: 10px;
+
+}
