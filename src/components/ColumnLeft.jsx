@@ -1,6 +1,6 @@
 import { Paper } from '@mui/material'
 import React from 'react'
-import style from '../styles/influencers.module.css'
+import style from '../styles/home.module.css'
 
 const ColumnLeft = () => {
   return (

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Paper } from "@mui/material";
-import style from '../styles/influencers.module.css'
+import style from '../styles/home.module.css'
 
 const DataHeader = () => {
   return (

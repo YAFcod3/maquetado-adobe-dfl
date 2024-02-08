@@ -4,7 +4,7 @@ import CardProfile from "./CardProfile";
 import CardCount from "./CardCount";
 import CardCoupon from "./CardCoupon";
 import Charts from "./Charts";
-import style from '../styles/influencers.module.css'
+import style from '../styles/home.module.css'
 
 const cardData = [
   { positionLeft: '280px', text: 'Cantidad de productos vendidos', count: '120' },

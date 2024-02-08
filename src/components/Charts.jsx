@@ -3,7 +3,7 @@ import LineChartGainsHistory from "./LineChartGainsHistory";
 import BarChartCountry from "./BarChartCountry";
 import BarCharCouponCat from "./BarCharCouponCat";
 import LineChartCouponHistory from "./LineChartCouponHistory";
-import style from "../styles/influencers.module.css";
+import style from "../styles/home.module.css";
 
 const Charts = () => {
   return (
