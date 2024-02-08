@@ -1,10 +1,10 @@
 import React from 'react'
-import style from './sidebar.module.css'
+import style from "../styles/page.module.css";
 
 
 const Sidebar = () => {
   return (
-    <aside className={style.aside}>efe</aside>
+    <aside className={style.aside}></aside>
     )
 }
 

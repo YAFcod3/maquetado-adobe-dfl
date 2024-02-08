@@ -5,8 +5,8 @@ import { AppRouterCacheProvider } from "@mui/material-nextjs/v13-appRouter";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Flow",
-  description: "A private link made with Adobe XD",
+  title: "Prueba técnica",
+  description: "Jornada de Puertas Abiertas DFL",
 };
 
 export default function RootLayout({ children }) {

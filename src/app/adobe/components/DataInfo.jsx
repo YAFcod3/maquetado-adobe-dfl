@@ -1,18 +1,15 @@
-// 'use client'
 import React from "react";
-import style from "./info.module.css";
-import { Avatar, Paper } from "@mui/material";
-// import BarChartCountry from "../bar-chart/BarChartCountry";
+import { Avatar, Paper } from "@mui/material"
+import style from "../styles/page.module.css";
 
 const DataInfo = () => {
   return (
-    // </div>
     <div className={style.layout}>
       <div className={style.row}></div>
 
       <div className={style.container}>
         {/* columnLeft */}
-        <div className={style.column}>scs</div>
+        <div className={style.column}></div>
 
         {/* datos */}
         <div className={style.containerData}>
@@ -40,6 +37,10 @@ const DataInfo = () => {
             </article>
 
 
+
+
+
+
             {/* influencers asociados */}
 
             <div className={style.influencersCard}>
@@ -50,10 +51,9 @@ const DataInfo = () => {
 
           </div>
 
-          {/* <Paper elevation={3}>
-            <BarChartCountry />
-          </Paper> */}
+        
         </div>
+
       </div>
     </div>
   );
