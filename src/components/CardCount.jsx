@@ -1,5 +1,5 @@
 import React from "react";
-import style from '../../styles/influencers.module.css'
+import style from '../styles/influencers.module.css'
 
 const CardCount = ({ positionLeft, text, count }) => {
   // const left=Number(positionLeft)

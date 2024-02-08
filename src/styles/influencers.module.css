@@ -12,7 +12,7 @@
 .dataLayout {
   background-color: rgba(204, 204, 204, 0.288);
   flex: 6;
- 
+
 }
 
 
@@ -37,7 +37,7 @@
   align-items: center;
 }
 
-.header span:first-child{
+.header span:first-child {
   color: gray;
   margin: 10px;
 
@@ -45,7 +45,7 @@
 
 
 
-/******** profile******/ 
+/******** profile******/
 
 .profileContainer {
   position: absolute;
@@ -70,12 +70,12 @@
   align-items: center;
 }
 
-.name {
+.profileImg .name {
   font-weight: bold;
   font-size: 25px;
 }
 
-.email {
+.profileImg .email {
   color: gray
 }
 
@@ -112,7 +112,6 @@
 }
 
 .cardCount {
-
   position: absolute;
   background-color: white;
   height: 130px;
@@ -159,20 +158,22 @@
   border-radius: 5px;
   top: 480px;
 }
-.cardCoupon > div:first-child{
+
+.cardCoupon>div:first-child {
   padding: 16px;
-display: flex;
-flex-direction: column;
-gap: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 
 }
 
-.itemCoupon{
+.itemCoupon {
   display: flex;
   justify-content: space-between;
 
 }
-.itemCoupon span:nth-child(2){
+
+.itemCoupon span:nth-child(2) {
   color: gray;
 }
 
@@ -188,18 +189,6 @@ gap: 15px;
 /************* card charts */
 
 
-.cardGainsHistory{
-  position: absolute;
-  background-color: white;
-  /* height: 250px; */
-  height: auto;
-  width: 420px;
-  border-radius: 5px;
-  top: 230px;
-  left: 280px;
- 
-
-}
 
 .cardBarCountry {
   position: absolute;
@@ -213,10 +202,26 @@ gap: 15px;
   display: flex;
   justify-content: center;
   align-items: center;
- 
+
 }
 
-.cardBarCategory{
+
+
+.cardGainsHistory {
+  position: absolute;
+  background-color: white;
+  height: auto;
+  width: 420px;
+  border-radius: 5px;
+  top: 230px;
+  left: 280px;
+
+
+}
+
+
+
+.cardBarCategory {
   position: absolute;
   background-color: white;
   /* height: 250px; */
@@ -233,7 +238,7 @@ gap: 15px;
 
 }
 
-.cardCouponHistory{
+.cardCouponHistory {
 
   position: absolute;
   background-color: white;

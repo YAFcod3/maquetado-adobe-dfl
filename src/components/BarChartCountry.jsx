@@ -56,7 +56,7 @@ export default function BarChartCountry() {
       yAxis={[{ scaleType: "band", dataKey: "country",
       categoryGapRatio: 0.4,
     }]}
-      series={[{ dataKey: "coupons", label: "Uso de cupones por lugar", valueFormatter ,  color: "rgb(161, 13, 161)",    
+      series={[{ dataKey: "coupons",  valueFormatter ,  color: "rgb(161, 13, 161)",    
  
      }]}
       layout="horizontal"

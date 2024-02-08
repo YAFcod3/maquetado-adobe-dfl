@@ -1,6 +1,6 @@
 import React from "react";
 import { Avatar, Divider } from "@mui/material";
-import style from '../../styles/influencers.module.css'
+import style from '../styles/influencers.module.css'
 
 
 

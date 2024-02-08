@@ -1,6 +1,6 @@
 import React from "react";
 import { Divider } from "@mui/material";
-import style from '../../styles/influencers.module.css'
+import style from '../styles/influencers.module.css'
 
 const cuponesRelacionados = [
   { codigo: 'H586ki', fecha: '06/02/2022' },

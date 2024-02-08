@@ -1,6 +1,6 @@
 import React from "react";
-import ColumnLeft from "../../components/influencers-page/ColumnLeft";
-import Data from "@/components/influencers-page/Data";
+import ColumnLeft from "../../components/ColumnLeft";
+import Data from "@/components/Data";
 import style from "../../styles/influencers.module.css";
 
 const Influencers = () => {
